@@ -19,8 +19,8 @@
       "name": "getFirstIpAddress",
       "display_name": "Get First IP Address",
       "deprecated": false,
-      "summary": "Get Subnet's First IP Address",
-      "description": "Calculates and returns the first host IP address from a CIDR subnet.",
+      "summary": "Get Subnet's First IP Address - Jawad",
+      "description": "Calculates and returns the first host IP address from a CIDR subnet. - Jawad",
       "input": [
         {
           "name": "cidrStr",
