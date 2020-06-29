@@ -75,7 +75,7 @@ log.info('Starting the IpAddress product.');
         // If the passed CIDR is valid, call the object's toArray() method.
         // Notice the destructering assignment syntax to get the value of the first array's element.
         [firstIpAddress] = cidr.toArray(options);
-        //jsonObject.ipv4 = firstIpAddress; 
+        jsonObject.ipv4 = firstIpAddress; 
         jsonObject.ipv6= getIpv4MappedIpv6Address(firstIpAddress); 
     }
 
